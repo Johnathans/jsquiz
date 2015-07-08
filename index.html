@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz yourself on JavaScript | Functions, Closures, All the Good Parts</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	 <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">JS Quiz</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#contact">Submit a Quiz Question</a></li>
+            <li><a href="#contact">How to Learn JavaScript</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <br/>
+    <br/>
+	<div id="container">
+		<header>
+			<div style="color: purple">
+				<div class="jumbotron text-center">
+					<h1><b>Simple JavaScript Quiz</b></h1>
+					<p><strong>Test your knowledge in pure vanilla JS Fundamentals</strong></p>
+				</div>
+			</div>
+			<h2 class="text-center text-muted">Are you getting ready for a job interview? Take our <span class="label label-success">JS Interview Quiz!</span></h2>
+			<br/>
+			<br/>
+			<div class="container question">
+				<section>
+					<div id="results">
+						<form action="" name="quizForm" onsubmit="return submitAnswers()">
+							<h3>In which HTML element do we put in JavaScript code?</h3>
+							<input type="radio" name="q1" value="a" id="q1a">a. &lt;js tag&gt;<br>
+							<input type="radio" name="q1" value="b" id="q1b">b. &lt;script&gt;<br>
+							<input type="radio" name="q1" value="c" id="q1c">c. &lt;body&gt;<br>
+							<input type="radio" name="q1" value="d" id="q1d">d. &lt;link&gt;<br>
+							<hr>
+							<h3>In which HTML element do we put in JavaScript code?</h3>
+							<input type="radio" name="q2" value="a" id="q2a">a. &lt;js tag&gt;<br>
+							<input type="radio" name="q2" value="b" id="q2b">b. &lt;script&gt;<br>
+							<input type="radio" name="q2" value="c" id="q2c">c. &lt;body&gt;<br>
+							<input type="radio" name="q2" value="d" id="q2d">d. &lt;link&gt;<br>
+							<hr>
+							<h3>In which HTML element do we put in JavaScript code?</h3>
+							<input type="radio" name="q3" value="a" id="q3a">a. &lt;js tag&gt;<br>
+							<input type="radio" name="q3" value="b" id="q3b">b. &lt;script&gt;<br>
+							<input type="radio" name="q3" value="c" id="q3c">c. &lt;body&gt;<br>
+							<input type="radio" name="q3" value="d" id="q3d">d. &lt;link&gt;<br>
+							<hr>
+							<h3>In which HTML element do we put in JavaScript code?</h3>
+							<input type="radio" name="q4" value="a" id="q4a">a. &lt;js tag&gt;<br>
+							<input type="radio" name="q4" value="b" id="q4b">b. &lt;script&gt;<br>
+							<input type="radio" name="q4" value="c" id="q4c">c. &lt;body&gt;<br>
+							<input type="radio" name="q4" value="d" id="q4d">d. &lt;link&gt;<br>
+							<br></br>
+							<h3>In which HTML element do we put in JavaScript code?</h3>
+							<input type="radio" name="q5" value="a" id="q5a">a. &lt;js tag&gt;<br>
+							<input type="radio" name="q5" value="b" id="q5b">b. &lt;script&gt;<br>
+							<input type="radio" name="q5" value="c" id="q5c">c. &lt;body&gt;<br>
+							<input type="radio" name="q5" value="d" id="q5d">d. &lt;link&gt;<br>
+							<br></br>
+							<input type="submit" value="Submit Answers" class="btn btn-success btn-lg btn-block">
+						</form>
+					</div>
+				</section>
+				<br></br>
+			</div>
+		</header>
+		<br></br>
+		<footer>
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-4">
+						<h4>Submit a Quiz Question</h4>
+					</div>
+					<div class="col-md-4">
+						<h4>Who Created This</h4>
+					</div>
+					<div class="col-md-4">
+						<h4>How to Learn JavaScript</h4>
+					</div>
+				</row>
+			</div>
+		</footer>
+		<br></br>
+	</div>
+</body>
+</html>
